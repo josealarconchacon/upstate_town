@@ -16,7 +16,7 @@ class ProfileViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        profileImage.profile_image()
+        profileImage.round_image()
     }
    
     @IBAction func sideMenu(_ sender: UIBarButtonItem) {

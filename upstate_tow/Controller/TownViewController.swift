@@ -26,7 +26,7 @@ class TownViewController: UIViewController, UISearchResultsUpdating {
     func searchBar() {
         searchController.searchResultsUpdater = self
         searchController.obscuresBackgroundDuringPresentation = false
-        searchController.searchBar.placeholder = "Search cities"
+        searchController.searchBar.placeholder = "Search For Towns"
         navigationItem.searchController = searchController
         definesPresentationContext = true
     }

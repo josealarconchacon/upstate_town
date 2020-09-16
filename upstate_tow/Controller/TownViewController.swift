@@ -8,8 +8,7 @@
 
 import UIKit
 
-class TownViewController: UIViewController {
-    
+class TownViewController: UIViewController, UISearchResultsUpdating {
 
     @IBOutlet weak var tableView: UITableView!
     
@@ -21,7 +20,19 @@ class TownViewController: UIViewController {
         tableView.delegate = self
         tableView.dataSource = self
         tableView.separatorStyle = .none
-        
+        searchBar()
+    }
+    
+    func searchBar() {
+        searchController.searchResultsUpdater = self
+        searchController.obscuresBackgroundDuringPresentation = false
+        searchController.searchBar.placeholder = "Search cities"
+        navigationItem.searchController = searchController
+        definesPresentationContext = true
+    }
+    
+    func updateSearchResults(for searchController: UISearchController) {
+        //
     }
 }
 

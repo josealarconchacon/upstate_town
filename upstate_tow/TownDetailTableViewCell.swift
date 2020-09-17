@@ -1,14 +1,14 @@
 //
-//  TownDetailCell.swift
+//  TownDetailTableViewCell.swift
 //  upstate_tow
 //
-//  Created by Jose Alarcon Chacon on 9/16/20.
+//  Created by Jose Alarcon Chacon on 9/17/20.
 //  Copyright © 2020 Jose Alarcon Chacon. All rights reserved.
 //
 
 import UIKit
 
-class TownDetailCell: UITableViewCell {
+class TownDetailTableViewCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()

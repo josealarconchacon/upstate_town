@@ -13,6 +13,7 @@ class ProfileViewController: UIViewController {
     @IBOutlet weak var profileImage: UIImageView!
     
     let transition = TransitionToLeft()
+    var topView: UIView?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +23,7 @@ class ProfileViewController: UIViewController {
     @IBAction func sideMenu(_ sender: UIBarButtonItem) {
         guard let menuVC = storyboard?.instantiateViewController(identifier: "menuVC") as? SideMenuViewController else { return }
         menuVC.didTypeMenu = { menu in
-            self.transitionToSelectedContent(menu)
+            self.transitionToSelectedView(menu)
             print(menu)
         }
         menuVC.modalPresentationStyle = .overCurrentContext
@@ -30,16 +31,15 @@ class ProfileViewController: UIViewController {
         present(menuVC, animated: true, completion: nil)
     }
     // transition to a select content
-    func transitionToSelectedContent(_ menu: SideMenu) {
+    func transitionToSelectedView(_ menu: SideMenu) {
         let title = String(describing: menu).capitalized
         self.title = title
+        self.topView?.removeFromSuperview()
         switch menu {
         case .town:
-            if let mvc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Town") as? TownViewController {
-                mvc.modalPresentationStyle = .fullScreen
-//                dismiss(animated: true, completion: nil)
-                self.present(mvc, animated: true, completion: nil)
-            }
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let town_vc = storyboard.instantiateViewController(identifier: "Town")
+            show(town_vc, sender: self)
         case .edit_profile:
             let view = UIView()
             view.backgroundColor = .yellow
@@ -50,6 +50,7 @@ class ProfileViewController: UIViewController {
             view.backgroundColor = .yellow
             view.frame = self.view.bounds
             self.view.addSubview(view)
+            self.topView = view
         default:
             break
         }

@@ -10,9 +10,12 @@ import UIKit
 
 class TownDetailTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var collectioView: UICollectionView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        collectioView.delegate = self
+        collectioView.dataSource = self
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -21,4 +24,20 @@ class TownDetailTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
+}
+
+extension TownDetailTableViewCell: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return 7
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath)
+        return cell
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        return CGSize(width: 120, height: 120)
+    }
 }

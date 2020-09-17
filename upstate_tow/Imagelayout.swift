@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MapKit
 
 
 extension UIImageView {
@@ -14,8 +15,22 @@ extension UIImageView {
         layer.cornerRadius = 15.0
     }
     
-    func profile_image() {
+    func round_image() {
         self.layer.cornerRadius = (self.frame.width / 2) //instead of let radius = CGRectGetWidth(self.frame) / 2
         self.layer.masksToBounds = true
     }
+    
+    func town_imag_detail() {
+        clipsToBounds = true
+        layer.cornerRadius = 20
+        layer.maskedCorners = [.layerMaxXMaxYCorner, .layerMinXMaxYCorner]
+    }
 }
+
+extension MKMapView {
+    func map_layout() {
+        self.layer.cornerRadius = (self.frame.width / 2)
+        self.layer.masksToBounds = true
+    }
+}
+

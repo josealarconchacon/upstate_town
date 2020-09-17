@@ -13,3 +13,4 @@ enum SideMenu: Int {
     case edit_profile
     case setting
 }
+

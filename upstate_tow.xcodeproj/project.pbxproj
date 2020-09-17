@@ -24,6 +24,8 @@
 		671C14182511BF740000B03F /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671C14172511BF740000B03F /* SideMenuViewController.swift */; };
 		671C141A25124EDC0000B03F /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671C141925124EDC0000B03F /* SideMenu.swift */; };
 		671C141C251250080000B03F /* TransitionToLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671C141B251250080000B03F /* TransitionToLeft.swift */; };
+		67C4795D2513EA8E00E96953 /* TownDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C4795C2513EA8E00E96953 /* TownDetailController.swift */; };
+		67C4795F2513EB0A00E96953 /* TownDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C4795E2513EB0A00E96953 /* TownDetailTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		671C14172511BF740000B03F /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
 		671C141925124EDC0000B03F /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
 		671C141B251250080000B03F /* TransitionToLeft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionToLeft.swift; sourceTree = "<group>"; };
+		67C4795C2513EA8E00E96953 /* TownDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TownDetailController.swift; sourceTree = "<group>"; };
+		67C4795E2513EB0A00E96953 /* TownDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TownDetailTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +168,7 @@
 				671C1411251136FF0000B03F /* NearTownViewController.swift */,
 				671C14132511370C0000B03F /* ProfileViewController.swift */,
 				671C14172511BF740000B03F /* SideMenuViewController.swift */,
+				67C4795C2513EA8E00E96953 /* TownDetailController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -188,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				671C140C25111F730000B03F /* TownCell.swift */,
+				67C4795E2513EB0A00E96953 /* TownDetailTableViewCell.swift */,
 				671C14152511BD930000B03F /* NearMeCell.swift */,
 			);
 			name = Cell;
@@ -340,11 +346,13 @@
 				671C13D5251105280000B03F /* AppDelegate.swift in Sources */,
 				671C1410251121F10000B03F /* Imagelayout.swift in Sources */,
 				671C13D7251105280000B03F /* SceneDelegate.swift in Sources */,
+				67C4795F2513EB0A00E96953 /* TownDetailTableViewCell.swift in Sources */,
 				671C1412251136FF0000B03F /* NearTownViewController.swift in Sources */,
 				671C14142511370C0000B03F /* ProfileViewController.swift in Sources */,
 				671C13DF251105280000B03F /* upstate_tow.xcdatamodeld in Sources */,
 				671C14182511BF740000B03F /* SideMenuViewController.swift in Sources */,
 				671C141C251250080000B03F /* TransitionToLeft.swift in Sources */,
+				67C4795D2513EA8E00E96953 /* TownDetailController.swift in Sources */,
 				671C14162511BD930000B03F /* NearMeCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -14,23 +14,42 @@ class TownMapViewController: UIViewController, CLLocationManagerDelegate {
 
     @IBOutlet weak var mapView: MKMapView!
     
-    fileprivate let locationManager: CLLocationManager = CLLocationManager()
+    fileprivate let locationManager: CLLocationManager = {
+        let manager = CLLocationManager()
+        manager.requestWhenInUseAuthorization()
+        return manager
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        location_manager()
+        setUpMapView()
+    }
+    func setUpMapView() {
+       mapView.showsUserLocation = true
+       mapView.showsCompass = true
+       mapView.showsScale = true
+       currentLocation()
     }
     
-    func location_manager() {
-        locationManager.requestAlwaysAuthorization()
-        locationManager.desiredAccuracy = kCLLocationAccuracyBest
-        locationManager.distanceFilter = kCLDistanceFilterNone
-        locationManager.startUpdatingLocation()
-        mapView.showsUserLocation = true
+    func currentLocation() {
+       locationManager.delegate = self
+       locationManager.desiredAccuracy = kCLLocationAccuracyBest
+       locationManager.showsBackgroundLocationIndicator = true
+       locationManager.startUpdatingLocation()
     }
-    
     
     // CLLocationManagerDelegate method
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+       let location = locations.last! as CLLocation
+       let currentLocation = location.coordinate
+       let coordinateRegion = MKCoordinateRegion(center: currentLocation, latitudinalMeters: 800, longitudinalMeters: 800)
+       mapView.setRegion(coordinateRegion, animated: true)
+       locationManager.stopUpdatingLocation()
+    }
+    
+    func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
+       print(error.localizedDescription)
+    }
 }
 
 

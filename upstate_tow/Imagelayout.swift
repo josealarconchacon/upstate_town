@@ -16,13 +16,13 @@ extension UIImageView {
     }
     
     func round_image() {
-        self.layer.cornerRadius = (self.frame.width / 2) //instead of let radius = CGRectGetWidth(self.frame) / 2
-        self.layer.masksToBounds = true
+        layer.cornerRadius = (self.frame.width / 2) //instead of let radius = CGRectGetWidth(self.frame) / 2
+        layer.masksToBounds = true
     }
     
     func town_imag_detail() {
         clipsToBounds = true
-        layer.cornerRadius = 20
+        layer.cornerRadius = 10
         layer.maskedCorners = [.layerMaxXMaxYCorner, .layerMinXMaxYCorner]
     }
 }

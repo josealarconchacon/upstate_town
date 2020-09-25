@@ -1,0 +1,6 @@
+framework module Pods_upstate_tow_upstate_towUITests {
+  umbrella header "Pods-upstate_tow-upstate_towUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -28,6 +28,7 @@ extension NearTownViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "nearMeCell", for: indexPath) as! NearMeCell
         cell.nearMeImageView.image_layout()
+        
         return cell
     }
 }

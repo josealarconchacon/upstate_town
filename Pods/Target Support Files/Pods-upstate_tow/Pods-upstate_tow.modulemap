@@ -1,0 +1,6 @@
+framework module Pods_upstate_tow {
+  umbrella header "Pods-upstate_tow-umbrella.h"
+
+  export *
+  module * { export * }
+}

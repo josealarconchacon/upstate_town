@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		382A0CF7D3CDA85E71B5286A /* Pods_upstate_tow_upstate_towUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85F80709CA5026173DAF65B6 /* Pods_upstate_tow_upstate_towUITests.framework */; };
 		671C13D5251105280000B03F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671C13D4251105280000B03F /* AppDelegate.swift */; };
 		671C13D7251105280000B03F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671C13D6251105280000B03F /* SceneDelegate.swift */; };
 		671C13D9251105280000B03F /* TownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671C13D8251105280000B03F /* TownViewController.swift */; };
@@ -24,8 +25,13 @@
 		671C14182511BF740000B03F /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671C14172511BF740000B03F /* SideMenuViewController.swift */; };
 		671C141A25124EDC0000B03F /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671C141925124EDC0000B03F /* SideMenu.swift */; };
 		671C141C251250080000B03F /* TransitionToLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671C141B251250080000B03F /* TransitionToLeft.swift */; };
+		6772A4EA251527AF00AF4A74 /* TownDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6772A4E9251527AF00AF4A74 /* TownDetailCollectionViewCell.swift */; };
+		67AB9C1B251E5D7900FB440D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 67AB9C1A251E5D7900FB440D /* GoogleService-Info.plist */; };
 		67C4795D2513EA8E00E96953 /* TownDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C4795C2513EA8E00E96953 /* TownDetailController.swift */; };
 		67C4795F2513EB0A00E96953 /* TownDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C4795E2513EB0A00E96953 /* TownDetailTableViewCell.swift */; };
+		67C4796125142FE300E96953 /* TownMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C4796025142FE300E96953 /* TownMapViewController.swift */; };
+		DA5D3206F1075D6BA23C1D88 /* Pods_upstate_towTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C5661E183C5A25640304E83 /* Pods_upstate_towTests.framework */; };
+		E0AF8D9F2CF2DD53354E8C73 /* Pods_upstate_tow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E31D77853AF505567D8E33F /* Pods_upstate_tow.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +52,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21FB3505552F6A70CB409A71 /* Pods-upstate_tow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-upstate_tow.release.xcconfig"; path = "Target Support Files/Pods-upstate_tow/Pods-upstate_tow.release.xcconfig"; sourceTree = "<group>"; };
+		28A43941AA6172404F692FF8 /* Pods-upstate_tow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-upstate_tow.debug.xcconfig"; path = "Target Support Files/Pods-upstate_tow/Pods-upstate_tow.debug.xcconfig"; sourceTree = "<group>"; };
+		3C73335F5C86325C4303DE55 /* Pods-upstate_tow-upstate_towUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-upstate_tow-upstate_towUITests.debug.xcconfig"; path = "Target Support Files/Pods-upstate_tow-upstate_towUITests/Pods-upstate_tow-upstate_towUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		671C13D1251105280000B03F /* upstate_tow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = upstate_tow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		671C13D4251105280000B03F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		671C13D6251105280000B03F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,8 +78,17 @@
 		671C14172511BF740000B03F /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
 		671C141925124EDC0000B03F /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
 		671C141B251250080000B03F /* TransitionToLeft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionToLeft.swift; sourceTree = "<group>"; };
+		6772A4E9251527AF00AF4A74 /* TownDetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TownDetailCollectionViewCell.swift; sourceTree = "<group>"; };
+		67AB9C1A251E5D7900FB440D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		67C4795C2513EA8E00E96953 /* TownDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TownDetailController.swift; sourceTree = "<group>"; };
 		67C4795E2513EB0A00E96953 /* TownDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TownDetailTableViewCell.swift; sourceTree = "<group>"; };
+		67C4796025142FE300E96953 /* TownMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TownMapViewController.swift; sourceTree = "<group>"; };
+		7C5661E183C5A25640304E83 /* Pods_upstate_towTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_upstate_towTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85F80709CA5026173DAF65B6 /* Pods_upstate_tow_upstate_towUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_upstate_tow_upstate_towUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E31D77853AF505567D8E33F /* Pods_upstate_tow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_upstate_tow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D10E33A07C1B2C28CD67B845 /* Pods-upstate_towTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-upstate_towTests.debug.xcconfig"; path = "Target Support Files/Pods-upstate_towTests/Pods-upstate_towTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E76EFEEEA488B3B5AA7D7281 /* Pods-upstate_towTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-upstate_towTests.release.xcconfig"; path = "Target Support Files/Pods-upstate_towTests/Pods-upstate_towTests.release.xcconfig"; sourceTree = "<group>"; };
+		EB7DDB582965DFAD330A90D0 /* Pods-upstate_tow-upstate_towUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-upstate_tow-upstate_towUITests.release.xcconfig"; path = "Target Support Files/Pods-upstate_tow-upstate_towUITests/Pods-upstate_tow-upstate_towUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0AF8D9F2CF2DD53354E8C73 /* Pods_upstate_tow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA5D3206F1075D6BA23C1D88 /* Pods_upstate_towTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,12 +112,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				382A0CF7D3CDA85E71B5286A /* Pods_upstate_tow_upstate_towUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		423B4D9B90EF0609125A86AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E31D77853AF505567D8E33F /* Pods_upstate_tow.framework */,
+				85F80709CA5026173DAF65B6 /* Pods_upstate_tow_upstate_towUITests.framework */,
+				7C5661E183C5A25640304E83 /* Pods_upstate_towTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		671C13C8251105280000B03F = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +136,8 @@
 				671C13ED251105290000B03F /* upstate_towTests */,
 				671C13F8251105290000B03F /* upstate_towUITests */,
 				671C13D2251105280000B03F /* Products */,
+				FE9DB353AE9A99BE26DE1893 /* Pods */,
+				423B4D9B90EF0609125A86AD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +161,7 @@
 				671C14092511056F0000B03F /* View */,
 				671C140E251121B70000B03F /* Extention */,
 				671C13E5251105290000B03F /* Info.plist */,
+				67AB9C1A251E5D7900FB440D /* GoogleService-Info.plist */,
 				671C13DD251105280000B03F /* upstate_tow.xcdatamodeld */,
 			);
 			path = upstate_tow;
@@ -169,6 +203,7 @@
 				671C14132511370C0000B03F /* ProfileViewController.swift */,
 				671C14172511BF740000B03F /* SideMenuViewController.swift */,
 				67C4795C2513EA8E00E96953 /* TownDetailController.swift */,
+				67C4796025142FE300E96953 /* TownMapViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -194,6 +229,7 @@
 			children = (
 				671C140C25111F730000B03F /* TownCell.swift */,
 				67C4795E2513EB0A00E96953 /* TownDetailTableViewCell.swift */,
+				6772A4E9251527AF00AF4A74 /* TownDetailCollectionViewCell.swift */,
 				671C14152511BD930000B03F /* NearMeCell.swift */,
 			);
 			name = Cell;
@@ -209,6 +245,20 @@
 			name = Extention;
 			sourceTree = "<group>";
 		};
+		FE9DB353AE9A99BE26DE1893 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28A43941AA6172404F692FF8 /* Pods-upstate_tow.debug.xcconfig */,
+				21FB3505552F6A70CB409A71 /* Pods-upstate_tow.release.xcconfig */,
+				3C73335F5C86325C4303DE55 /* Pods-upstate_tow-upstate_towUITests.debug.xcconfig */,
+				EB7DDB582965DFAD330A90D0 /* Pods-upstate_tow-upstate_towUITests.release.xcconfig */,
+				D10E33A07C1B2C28CD67B845 /* Pods-upstate_towTests.debug.xcconfig */,
+				E76EFEEEA488B3B5AA7D7281 /* Pods-upstate_towTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -216,9 +266,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 671C13FE251105290000B03F /* Build configuration list for PBXNativeTarget "upstate_tow" */;
 			buildPhases = (
+				5674A1FEECD5C004C40329B4 /* [CP] Check Pods Manifest.lock */,
 				671C13CD251105280000B03F /* Sources */,
 				671C13CE251105280000B03F /* Frameworks */,
 				671C13CF251105280000B03F /* Resources */,
+				89308EA2D41A05792B908E73 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +285,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 671C1401251105290000B03F /* Build configuration list for PBXNativeTarget "upstate_towTests" */;
 			buildPhases = (
+				29D3A21FB65C60AE3E3D0B50 /* [CP] Check Pods Manifest.lock */,
 				671C13E6251105290000B03F /* Sources */,
 				671C13E7251105290000B03F /* Frameworks */,
 				671C13E8251105290000B03F /* Resources */,
@@ -251,9 +304,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 671C1404251105290000B03F /* Build configuration list for PBXNativeTarget "upstate_towUITests" */;
 			buildPhases = (
+				6AE1BF20A7ACBC527CD9BD66 /* [CP] Check Pods Manifest.lock */,
 				671C13F1251105290000B03F /* Sources */,
 				671C13F2251105290000B03F /* Frameworks */,
 				671C13F3251105290000B03F /* Resources */,
+				7C8C514201820A3A5558D4AF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -314,6 +369,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				671C13E4251105290000B03F /* LaunchScreen.storyboard in Resources */,
+				67AB9C1B251E5D7900FB440D /* GoogleService-Info.plist in Resources */,
 				671C13E1251105290000B03F /* Assets.xcassets in Resources */,
 				671C13DC251105280000B03F /* Main.storyboard in Resources */,
 			);
@@ -335,6 +391,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		29D3A21FB65C60AE3E3D0B50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-upstate_towTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5674A1FEECD5C004C40329B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-upstate_tow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AE1BF20A7ACBC527CD9BD66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-upstate_tow-upstate_towUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C8C514201820A3A5558D4AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-upstate_tow-upstate_towUITests/Pods-upstate_tow-upstate_towUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-upstate_tow-upstate_towUITests/Pods-upstate_tow-upstate_towUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-upstate_tow-upstate_towUITests/Pods-upstate_tow-upstate_towUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89308EA2D41A05792B908E73 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-upstate_tow/Pods-upstate_tow-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-upstate_tow/Pods-upstate_tow-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-upstate_tow/Pods-upstate_tow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		671C13CD251105280000B03F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -348,8 +507,10 @@
 				671C13D7251105280000B03F /* SceneDelegate.swift in Sources */,
 				67C4795F2513EB0A00E96953 /* TownDetailTableViewCell.swift in Sources */,
 				671C1412251136FF0000B03F /* NearTownViewController.swift in Sources */,
+				67C4796125142FE300E96953 /* TownMapViewController.swift in Sources */,
 				671C14142511370C0000B03F /* ProfileViewController.swift in Sources */,
 				671C13DF251105280000B03F /* upstate_tow.xcdatamodeld in Sources */,
+				6772A4EA251527AF00AF4A74 /* TownDetailCollectionViewCell.swift in Sources */,
 				671C14182511BF740000B03F /* SideMenuViewController.swift in Sources */,
 				671C141C251250080000B03F /* TransitionToLeft.swift in Sources */,
 				67C4795D2513EA8E00E96953 /* TownDetailController.swift in Sources */,
@@ -524,6 +685,7 @@
 		};
 		671C13FF251105290000B03F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28A43941AA6172404F692FF8 /* Pods-upstate_tow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -542,6 +704,7 @@
 		};
 		671C1400251105290000B03F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21FB3505552F6A70CB409A71 /* Pods-upstate_tow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -560,6 +723,7 @@
 		};
 		671C1402251105290000B03F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D10E33A07C1B2C28CD67B845 /* Pods-upstate_towTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -582,6 +746,7 @@
 		};
 		671C1403251105290000B03F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E76EFEEEA488B3B5AA7D7281 /* Pods-upstate_towTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -604,6 +769,7 @@
 		};
 		671C1405251105290000B03F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C73335F5C86325C4303DE55 /* Pods-upstate_tow-upstate_towUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -624,6 +790,7 @@
 		};
 		671C1406251105290000B03F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB7DDB582965DFAD330A90D0 /* Pods-upstate_tow-upstate_towUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

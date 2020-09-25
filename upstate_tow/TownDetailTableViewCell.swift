@@ -34,7 +34,14 @@ extension TownDetailTableViewCell: UICollectionViewDelegate, UICollectionViewDat
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! TownDetailCollectionViewCell
-        
+//        cell.layer.cornerRadius = 4.0
+//        cell.layer.borderWidth = 1.0
+//        cell.layer.borderColor = UIColor.clear.cgColor
+//        cell.layer.masksToBounds = false
+//        cell.layer.shadowColor = UIColor.gray.cgColor
+//        cell.layer.shadowOffset = CGSize(width: 0, height: 1.0)
+//        cell.layer.shadowRadius = 4.0
+//        cell.layer.shadowOpacity = 1.0
         cell.imageView.image_layout()
         return cell
     }

@@ -19,7 +19,7 @@ class TransitionToLeft: NSObject, UIViewControllerAnimatedTransitioning {
     func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
         guard let transitionToVC = transitionContext.viewController(forKey: .to),
             let fromVC = transitionContext.viewController(forKey: .from) else { return }
-        // present ans dismiss VC in transition
+        // present and dismiss VC in transition
         let countainerV = transitionContext.containerView
         // set width and height to transitionToVC
         let width = transitionToVC.view.bounds.width * 0.8
